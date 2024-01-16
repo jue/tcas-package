@@ -9,7 +9,7 @@
 ### 克隆本仓库
 
 ```bash
-git clone git@github.com:jue/tcas-package.git
+git clone https://github.com/jue/tcas-package.git
 ```
 
 ### 使用
@@ -27,3 +27,7 @@ git clone git@github.com:jue/tcas-package.git
   ```javascript
   <TcasView baseUrl="http://127.0.0.1:30192"  />
   ```
+5. 在style标签中引入样式
+```css
+@import './components/TcasView/style.css';
+```
