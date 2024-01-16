@@ -2,7 +2,9 @@
 
 ## 介绍
 
-基本 `geoscene api for JavaScript` 的地图预览系统，文档地址 https://doc.geoscene.cn/javascript ，仅支持Vue3
+基本 `geoscene api for JavaScript` 的地图预览系统，文档地址 https://doc.geoscene.cn/javascript ，仅支持Vue3  
+
+演示地址： https://tcas.nipao.com
 
 ## 使用
 
