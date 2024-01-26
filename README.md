@@ -25,9 +25,12 @@ git clone https://github.com/jue/tcas-package.git
   ```javascript
   <TcasView  />
   ```
-4. 组件接受一个参数 ` baseUrl `，用于设置 `axios api` 的数据请求地址
+4. 组件接受一个参数 ` config `，用于设置 `axios api` 的数据请求地址
   ```javascript
-  <TcasView baseUrl="http://127.0.0.1:30192"  />
+  <TcasView :config="{
+      baseURL: '',  // api 请求地址
+      token: '1234567890', // api token（额外）
+    }"  />
   ```
 5. 在style标签中引入样式
 ```css
